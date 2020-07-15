@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Адина Абдылдаева](https://up.htmlacademy.ru/adaptive/20/user/137731).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Колотович](https://htmlacademy.ru/profile/id225353).
 
 ---
 
