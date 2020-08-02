@@ -1,4 +1,8 @@
-// Начните писать стили здесь
-body {
-  background-color: green;
-}
+@import "blocks/main-nav.scss";
+@import "global.scss";
+@import "variables.scss";
+@import "blocks/cat-programs.scss";
+@import "blocks/how-it-works.scss";
+@import "blocks/footer.scss";
+@import "blocks/catalog.scss"
+

@@ -1,0 +1,56 @@
+.catalog {
+  &__item {
+    width: 280px;
+    margin-bottom: 15px;
+
+    &--link {
+      text-decoration: none;
+      display: block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      background-color: #68B738;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #222222;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    td {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #444444;
+      width: 50%;
+      text-align: left;
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+
+    // &--content {
+    //   display: flex;
+    //   width: 50%;
+    // }
+
+    &--body {
+      display: flex;
+    }
+  }
+}

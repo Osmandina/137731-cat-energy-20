@@ -1,0 +1,37 @@
+.how-it-works {
+  width: 280px;
+
+  h2 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__item {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #444444;
+    margin-bottom: 20px;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: #68B738;
+      margin-right: 20px;
+    }
+  }
+}
