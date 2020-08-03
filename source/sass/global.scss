@@ -26,86 +26,40 @@ ul {
   display: none;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 480px;
-  position: relative;
-
-  &__bg {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    bottom: 305px;
-    height: 305px;
-    width: 320px;
-    z-index: -1;
-    background-image: url("/img/index-background-mobile@1x.jpg");
-    background-color: #68B738;
-    background-repeat: no-repeat;
-    background-position: top center;
-  }
-
-  h2 {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
-  }
-
-  h3 {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #FFFFFF;
-  }
-
-  a {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 11px 0;
-    color: #FFFFFF;
-    width: 280px;
-    background-color: #68B738;
-  }
+h1 {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 54px;
+  text-align: center;
+  color: #111;
+  margin: 0;
 }
-
 
 .nav-button {
   position: relative;
+  border: 0;
+  width: 24px;
+  height: 18px;
+  background-color: #fff;
 
-  &--hamburger,
-  &--hamburger::before,
-  &--hamburger::after {
+  &__hamburger,
+  &__hamburger::before,
+  &__hamburger::after {
     position: absolute;
     left: 0;
     content: "";
-    height: 3px;
+    height: 2px;
     width: 24px;
     background-color: #000;
   }
 
-  &--hamburger::before {
+  &__hamburger::before {
     top: -8px;
   }
 
-  &--hamburger::after {
+  &__hamburger::after {
     bottom: -8px;
   }
 }
