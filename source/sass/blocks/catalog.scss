@@ -3,7 +3,16 @@
     width: 280px;
     margin-bottom: 15px;
 
-    &--link {
+    &--bg-gray {
+      background-color: #F2F2F2; //создала модификатор, но он пока не используется в коде
+    }
+
+    &--text-regular {
+      color: #444444;
+    }
+
+
+    &-link {
       text-decoration: none;
       display: block;
       font-style: normal;
@@ -36,7 +45,6 @@
       font-weight: normal;
       font-size: 12px;
       line-height: 16px;
-      color: #444444;
       width: 50%;
       text-align: left;
 
@@ -45,13 +53,44 @@
       }
     }
 
-    // &--content {
-    //   display: flex;
-    //   width: 50%;
-    // }
-
-    &--body {
+    &-body {
       display: flex;
+    }
+
+    &--last {
+      text-align: center;
+
+      h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #111;
+        margin: 0;
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &-show-more {
+      background-color: #f2f2f2;
+      font-size: 16px;
+      // text-align: center;
+      text-transform: uppercase;
+      line-height: 0;
+      padding: 20px;
+      width: 280px;
+      border: none;
+      margin-bottom: 25px;
     }
   }
 }
