@@ -40,7 +40,7 @@
     }
 
     td {
-      font-family: Arial;
+      font-family: Arial, Tahoma, sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 12px;
@@ -72,12 +72,13 @@
       }
 
       p {
-        font-family: Arial;
+        font-family: Arial, Tahoma, sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
         line-height: 16px;
         margin-bottom: 20px;
+        color: #444444;
       }
     }
 
@@ -86,6 +87,7 @@
       font-size: 16px;
       // text-align: center;
       text-transform: uppercase;
+      color: #444444;
       line-height: 0;
       padding: 20px;
       width: 280px;
